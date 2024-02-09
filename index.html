@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <title>Starbucks 2.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="circulo"></div>
+    <div class="barra"></div>
+    <div class="logo-starbucks"><img src="img/logo.png" alt="logo-starbucks" class="logo"></div>
+    <div class="conteudo">
+        <div class="caixa-texto">
+            <h2>It's not just coffee<br> it's <span>Starbucks</span></h2>
+            <div class="texto">
+                <p>Your entire experience -starting with your application- is designed to be the beggining of an
+                    inspirational
+                    journey, where you are treated warmly and with transparency, dignity and respect.</p>
+            </div>
+
+            <button>Enjoy it</button>
+        </div>
+        <div class="caixa-imagem">
+            <img src="img/img1.png" alt="copao-verde" class="Copao">
+        </div>
+    </div>
+    <div class="menu">
+        <img src="img/img-pequena1.png" class="copinho verde">
+        <img src="img/img-pequena2.png" class="copinho rosinha">
+        <img src="img/img-pequena3.png" class="copinho rosa">
+    </div>
+    </div>
+</body>
+
+<script>
+    let circulo = document.querySelector(".circulo")
+    let barra = document.querySelector(".barra")
+    let copo = document.querySelector(".Copao")
+    let verde = document.querySelector(".verde")
+    let rosinha = document.querySelector(".rosinha")
+    let rosa = document.querySelector(".rosa")
+
+    rosinha.addEventListener("mouseenter", () => {
+        copo.src = "./img/img2.png"
+        circulo.style.background = "#eb7495"
+        barra.style.background = "#eb7495"
+    })
+    rosa.addEventListener("mouseenter", () => {
+        copo.src = "./img/img3.png"
+        circulo.style.background = "#d752b1"
+        barra.style.background = "#d752b1"
+    })
+    verde.addEventListener("mouseenter", () => {
+        copo.src = "./img/img1.png"
+        circulo.style.background = "#017143"
+        barra.style.background = "#017143"
+    })
+
+</script>
+
+</html>
