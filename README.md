@@ -10,4 +10,4 @@ Tecnologias utilizadas:<br>
 <br>
 <img src="https://github.com/limandrei/starbucks/blob/main/desktop.png?raw=true">
 <br>
-<a href="https://limandrei.github.io/starbucks/">Clique aqui para visualizar</a>
+<a href="https://limandrei.github.io/starbucks/" target="_blank">Clique aqui para visualizar</a>
