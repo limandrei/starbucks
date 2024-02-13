@@ -112,3 +112,49 @@ body {
 body {
     zoom: 100%;
 }
+
+@media screen and (max-width: 450px) {
+    .caixa-imagem, .circulo{
+        display: none;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    .conteudo {
+        display: block;
+        padding-left: 25px;
+    }
+
+    .caixa-texto {
+        width: auto;
+        margin-top: 180px;       
+    }
+
+    .texto {
+        width: 320px;
+    }
+
+    p {
+        text-align: justify;
+        margin-top: 30px;
+    }
+
+    span {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    button {
+        margin-top: 60px;
+    }
+
+    .copinho {
+        margin-top: 250px;
+        width: 50px;
+    }
+}
