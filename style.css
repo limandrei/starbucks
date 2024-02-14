@@ -129,7 +129,7 @@ body {
 
     .caixa-texto {
         width: auto;
-        margin-top: 180px;       
+        margin-top: 140px;       
     }
 
     .texto {
@@ -139,22 +139,23 @@ body {
     p {
         text-align: justify;
         margin-top: 30px;
+        font-size: 10px;
     }
 
     span {
-        font-size: 45px;
-    }
-
-    h2 {
         font-size: 35px;
     }
 
+    h2 {
+        font-size: 25px;
+    }
+
     button {
-        margin-top: 60px;
+        margin-top: 40px;
     }
 
     .copinho {
-        margin-top: 250px;
-        width: 50px;
+        margin-top: 200px;
+        width: 45px;
     }
 }
